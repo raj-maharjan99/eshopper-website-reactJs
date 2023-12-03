@@ -1,0 +1,15 @@
+export let CategoryData = [
+  "Shirts",
+  "Jeans",
+  "Shimwear",
+  "Sleepwear",
+  "Sportswear",
+  "Jumpsuits",
+  "Blazers",
+  "Jackets",
+  "Shoes",
+  "Shocks",
+  "Hoddie",
+  "Slipper",
+  "Summer Clothes",
+];
