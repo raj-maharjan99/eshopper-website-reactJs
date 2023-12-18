@@ -9,14 +9,27 @@ function NavCarousel() {
           <div className="">
             <div className=" text-[20px]  flex  justify-between gap-[350px]   font-[400]">
               <ul className="flex gap-5  ">
-                {NavList.map((item, index) => (
+                {/* using map method to receive data from data.js */}
+                {/* {NavList.map((item, index) => (
                   <a href="">
                     {" "}
                     <li className="hover:text-red-600" key={index}>
                       {item}
                     </li>
                   </a>
-                ))}
+                ))} */}
+                <li>
+                  <a href="">Home</a>
+                </li>
+                <li>
+                  <a href="">Shop</a>
+                </li>
+                <li>
+                  <a href="">Contact</a>
+                </li>
+                <li>
+                  <a href="">Home</a>
+                </li>
               </ul>
               <ul className="flex gap-3">
                 <li>Login</li>

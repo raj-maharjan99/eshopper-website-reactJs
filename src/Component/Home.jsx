@@ -1,6 +1,8 @@
 import NavCarousel from "../carasoule/NavCarousel";
 import { CategoryData } from "../data/CategoriesData";
-import Gallery from "./Hero";
+// import Gallery from "./Hero";
+import HeroCollection from "./HeroCollection";
+import Laptops from "./Laptops";
 function Home() {
   return (
     <>
@@ -44,9 +46,19 @@ function Home() {
             </div>
           </div>
         </div>
-        <div>
-          <Gallery />
+        <div className="container py-2 px-[10px] mx-auto w-[1280px] bg-[#EDF1FF] flex justify-center  "></div>
+        <div className="container py-2 px-[10px] mx-auto w-[1280px] bg-[#EDF1FF] flex justify-center  ">
+          <Laptops product="laptops" />
         </div>
+        <div className="container py-2 px-[10px] mx-auto w-[1280px] bg-[#EDF1FF] flex justify-center  ">
+          <Laptops product="fragrances" />
+        </div>
+        <div className="container py-2 px-[10px] mx-auto w-[1280px] bg-[#EDF1FF] flex justify-center  ">
+          <Laptops product="skincare" />
+        </div>
+        <Laptops product="groceries" />
+        <Laptops product="home-decoration" />
+        <Laptops product="smartphones" />
       </section>
     </>
   );

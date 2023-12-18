@@ -15,15 +15,15 @@ export const Slider = () => {
       <div className="">
         <img style={imageStyle} src="1.jpg" />
 
-        <p className="legend w-3 ">Legend 1</p>
+        <p className="legend w-3 ">Beautiful</p>
       </div>
       <div>
         <img style={imageStyle} src="2.jpg" />
-        <p className="legend w-3 ">Legend 2</p>
+        <p className="legend w-3 ">Kids</p>
       </div>
       <div>
         <img style={imageStyle} src="3.jpg" />
-        <p className="legend w-3">Legend 3</p>
+        <p className="legend w-3">Harmony</p>
       </div>
     </Carousel>
   );
